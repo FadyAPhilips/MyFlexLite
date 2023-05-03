@@ -1,0 +1,38 @@
+<!-- Project by Youssef Mohamed and Fady Philips -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <script  src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="API.js"></script>
+
+    <link rel="stylesheet" href="project.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COMP-3100 - MyFlex</title>
+  </head>
+  <body>
+    <div id="Page">
+        <div id="Menu">
+            <div id="title" onclick="goToHome()">
+                <img src="https://www.pngfind.com/pngs/b/311-3114065_highlight-png.png" alt="logo" width="110px" height="auto" id="logo">
+                <div>MyFlex</div>
+            </div>
+            <form>
+                <div id="searchBar">
+                    <input type="text" id="search" class="textBar" name="search" placeholder="Search" style="margin: 0px;">
+                    <input type="button" class="appButton" value=">>" onclick="searchFunction()">
+                </div>
+            </form>
+        </div>
+        <div id="moviePage" style="padding-left: 350px; width: 100%;">  
+        </div>
+    </div>
+
+	<script src="project.js"></script>
+
+</body>
+</html>

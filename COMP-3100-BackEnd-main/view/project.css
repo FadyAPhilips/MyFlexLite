@@ -1,0 +1,195 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+body {
+  height: 100vh;
+  background-color: #505050;
+}
+
+#Page {
+  display: flex;
+}
+
+#Menu {
+  background-color: #1a1a1a;
+  width: 350px;
+  height: 1100vh;
+  margin: -11px;
+  margin-right: 15px;
+  position: fixed;
+}
+
+#title {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  font-family: "Croissant One";
+  font-size: 40pt;
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+#logo {
+  filter: invert(95%);
+}
+
+#searchBar {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.textBar {
+  height: 30px;
+  width: 80%;
+  padding-left: 4px;
+  background-color: #101010;
+  border: #707070 solid 2px;
+  border-radius: 5px;
+  color: #eeeeee;
+  transition-duration: 0.2s;
+  margin: 6px;
+}
+
+.textBar:hover {
+  background-color: #202020;
+}
+
+.textBar:focus {
+  background-color: #292929;
+  outline: none;
+  border: #808080 solid 2px;
+}
+
+.appButton {
+  background-color: #101010;
+  border: #707070 solid 2px;
+  border-radius: 5px;
+  color: #eeeeee;
+  transition-duration: 0.2s;
+}
+
+.appButton:hover {
+  background-color: #303030;
+  color: #eeeeee;
+}
+
+.appButton:active {
+  background-color: #505050;
+}
+
+::placeholder {
+  color: #707070;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonDiv {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.myListDiv {
+  color: #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20pt;
+  cursor: pointer;
+}
+
+.loginMessage {
+  color: #eeeeee;
+  font-size: 80pt;
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.fullContainer {
+  display: flex;
+  padding: 10px 0px 10px 10px;
+  width: 99%;
+  justify-content: space-between;
+  border: #707070 solid 3px;
+  background-color: #353535;
+  border-radius: 10px;
+  margin-bottom: 22px;
+}
+
+.infoContainer {
+  padding-left: 10px;
+  color: #f0f0f0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* height: 350px; */
+}
+
+.movieTitle {
+  font-size: 28pt;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 5px;
+}
+
+#addMovieButton {
+  height: 70px;
+  width: 70px;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.statsContainer {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15pt;
+  color: #aaaaaa;
+}
+
+.imdbScore {
+  padding-left: 6px;
+}
+
+.cast {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  font-size: 15pt;
+  color: #aaaaaa;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  color: #eeeeee;
+  font-size: 24pt;
+  padding: 40px;
+}
